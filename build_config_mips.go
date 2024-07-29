@@ -7,3 +7,6 @@ package netfilter
 
 #include "netfilter.h"
 */
+
+
+import "C"

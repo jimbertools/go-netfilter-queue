@@ -23,7 +23,6 @@ The libnetfilter_queue library is part of the http://netfilter.org/projects/libn
 package netfilter
 
 
-import "C"
 
 import (
 	"fmt"

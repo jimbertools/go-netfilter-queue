@@ -5,3 +5,6 @@ package netfilter
 #cgo LDFLAGS: -L/usr/lib/mips-linux-gnu -lnetfilter_queue
 #include <netfilter.h>
 */
+
+
+import "C"
