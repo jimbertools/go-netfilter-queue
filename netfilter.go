@@ -22,9 +22,13 @@ The libnetfilter_queue library is part of the http://netfilter.org/projects/libn
 */
 package netfilter
 
-
+/*
+#include "netfilter.h"
+*/
+import "C"
 
 import (
+
 	"fmt"
 	"os"
 	"sync"
