@@ -25,6 +25,10 @@ The libnetfilter_queue library is part of the http://netfilter.org/projects/libn
 package netfilter
 
 /*
+#cgo pkg-config: libnetfilter_queue
+#cgo CFLAGS: -Wall -I/usr/include
+#cgo LDFLAGS: -L/usr/lib64/
+
 #include "netfilter.h"
 */
 import "C"
